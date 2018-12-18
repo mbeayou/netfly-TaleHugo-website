@@ -6,7 +6,7 @@ CanonifyURLs=true
 languageCode = "en"
 title = "m-beayou"
 DefaultContentLanguage = "nl"
-publishdir = "<public"
+publishdir = "public"
 
 theme = "tale"
 
