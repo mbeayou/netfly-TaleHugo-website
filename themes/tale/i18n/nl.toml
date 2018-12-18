@@ -1,0 +1,17 @@
+[posts]
+other = "المدونه"
+
+[about]
+other = "عن الكاتب"
+
+[writtenBy]
+other = "حررت بواسطة"
+
+[on]
+other = "في يوم"
+
+[generator]
+other = "صنع في ليبيا"
+
+[publishdate]
+other = "{{ index $.Site.Data.months_nl (printf \"%d\" .PublishDate.Month) }} {{ .PublishDate.Day }} {{ .PublishDate.Year }} "
