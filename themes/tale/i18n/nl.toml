@@ -11,7 +11,7 @@ other = "حــررت بواسـطة"
 other = "في تــاريخ"
 
 [generator]
-other = "made by <3"
+other = "made with <3"
 
 [publishdate]
 other = "{{ index $.Site.Data.months_nl (printf \"%d\" .PublishDate.Month) }} {{ .PublishDate.Day }} {{ .PublishDate.Year }} "
