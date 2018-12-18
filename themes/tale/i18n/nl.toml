@@ -5,13 +5,13 @@ other = "المدونه"
 other = "عن الكاتب"
 
 [writtenBy]
-other = "حررت بواسطة"
+other = "حــررت بواسـطة"
 
 [on]
-other = "في يوم"
+other = "في تــاريخ"
 
 [generator]
-other = "صنع في ليبيا"
+other = "made by <3"
 
 [publishdate]
 other = "{{ index $.Site.Data.months_nl (printf \"%d\" .PublishDate.Month) }} {{ .PublishDate.Day }} {{ .PublishDate.Year }} "
