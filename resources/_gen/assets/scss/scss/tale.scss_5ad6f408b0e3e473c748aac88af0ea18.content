@@ -4,7 +4,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   line-height: 1.5;
-  text-align: right; }
+  text-align: right;
+  overflow-wrap: break-word; }
 
 html,
 body {
@@ -112,7 +113,8 @@ pre code {
     width: 4rem; }
   .post p {
     margin: 0 0 1rem;
-    text-align: right; }
+    text-align: right;
+    overflow-wrap: break-word; }
   .post a:hover {
     text-decoration: underline; }
   .post img {
@@ -429,7 +431,7 @@ footer,
     color: #555;
     display: inline-block;
     opacity: .6;
-    padding: 0 0 0 2rem; }
+    padding: 0 2rem 0 0; }
     .nav li:last-child {
       padding-right: 0; }
     .nav li:hover, .nav li:focus {
