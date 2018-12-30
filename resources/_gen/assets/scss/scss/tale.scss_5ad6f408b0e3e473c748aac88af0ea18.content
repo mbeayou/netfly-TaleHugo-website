@@ -92,7 +92,8 @@ pre code {
     user-select: none; }
 
 .post {
-  padding: 3rem 0; }
+  padding: 3rem 0;
+  direction: rtl; }
   .post-info {
     color: #aaa;
     font-family: "Cairo", "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
