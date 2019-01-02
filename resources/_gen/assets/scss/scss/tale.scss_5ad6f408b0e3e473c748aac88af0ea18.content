@@ -92,7 +92,8 @@ pre code {
     user-select: none; }
 
 center {
-  text-align: center; }
+  text-align: center;
+  font-size: 20px; }
 
 .post {
   padding: 3rem 0;
