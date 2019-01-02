@@ -91,6 +91,9 @@ pre code {
     -moz-user-select: none;
     user-select: none; }
 
+center {
+  text-align: center; }
+
 .post {
   padding: 3rem 0;
   direction: rtl; }
