@@ -29,6 +29,12 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL}}images/apple-touch-icon.png">
 	
 		<!-- RSS -->
-		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+		{{ if .RSSLink }}
+		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>		
+  		<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+		{{ end }}
+
+
+
 	</head>
 	

@@ -4,11 +4,18 @@ RelativeURLs=true
 CanonifyURLs=true
 
 languageCode = "en"
-title = "m-beayou"
+title = "mohammed beayou"
 DefaultContentLanguage = "nl"
 publishdir = "public"
-
+rssLimit = 20
 theme = "tale"
+
+languageCode = "en-us"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[author]
+    name = "mohammed s. beayou"
+    email = "msdbgx@gmail.com"
 
 [posts]
 other = "Posts"
@@ -30,6 +37,5 @@ other = "Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https
 
 [publishdate]
 other = "{{ .PublishDate.Format \"January 2, 2018\" }}"
-
 
 
