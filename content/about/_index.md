@@ -13,12 +13,7 @@ date: 2015-06-20T14:02:37+02:00
 * djkjkdf
 * slkdlksdld  
 * l;kdslklkds
- <ul>
-    <li>أجيد برمجة الواجهات الامامية </li>
-    <li>اتعامل مع vue.js framework</li>
-    <li>و مبرمج لبعض المنظومات التجارية مستخدما NET.  و visual studio</li>
-</ul>   
-      
+
 
 يمنكم التواصل معي على بريدي الالكتروني   
 msdbgx@gmail.com
