@@ -2,7 +2,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		{{- if eq .URL "/" }}
-			<meta name="description" content="{{ .Site.Params.Description }}">
+			<meta name="description" content="مدونة شخصية لمحمد بعيو يكتب فيها عن اشياء مختلفة ">
 		{{- else if .Description }}
 			<meta name="description" content="{{ .Description }}">
 		{{- end }}
@@ -21,7 +21,9 @@
 		{{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}		
 		{{- $style			:= resources.Get "scss/tale.scss" | toCSS $cssOptions }}
   		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo|Source+Code+Pro|Tajawal&subset=arabic">
+
 	
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon-32x32.png">

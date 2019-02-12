@@ -1,9 +1,9 @@
 # Site settings
-baseurl = "https://m-beayou.netlify.com/"
+baseurl = "https://m-beayou.netlify.com"
 RelativeURLs=true
 CanonifyURLs=true
 
-languageCode = "en"
+languageCode = "ar"
 title = "mohammed beayou"
 DefaultContentLanguage = "nl"
 publishdir = "public"

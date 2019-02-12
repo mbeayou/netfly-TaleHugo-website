@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Cairo|Source+Code+Pro|Tajawal&subset=arabic");
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
