@@ -32,11 +32,26 @@ center{
     width: 4rem;
   }
 
-  p {
+  p, 
+  ul,
+  li{
+    @media (min-width: 0px) {
+      font-size: 16px;
+    }
+    @media (min-width: 480px) {
+      font-size: 18px;
+    }
+    @media (min-width: 720px) {
+      font-size: 21px;
+    }
     margin: 0 0 1rem;
     text-align: right;
-    font-size: 21px;
+    //font-size: 16px;
     color: black;
+  }
+
+  hr{
+    margin: 55px auto 34px auto;
   }
 
   a:hover {
