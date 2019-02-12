@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
-    {{ partial "head.html" . }}
-    <body>
-            {{ partial "header.html" . }}
-            <center>
-                <img src="../images/404.jpg" style="  margin: 1px auto;">
-            </center>
-    </body>
-</html>
 
+{{ define "main"}}
+    <main id="main">
+      <div>
+       <center>
+            <img src="../images/404.jpg" style="  margin: 1px auto;">
+        </center>
+      </div>
+    </main>
+{{ end }}
