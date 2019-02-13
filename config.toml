@@ -1,9 +1,9 @@
 # Site settings
-baseurl = "https://m-beayou.netlify.com"
+baseurl = "https://m-beayou.netlify.com/"
 RelativeURLs=true
 CanonifyURLs=true
 
-languageCode = "ar"
+languageCode = "en"
 title = "mohammed beayou"
 DefaultContentLanguage = "nl"
 publishdir = "public"
@@ -16,24 +16,24 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     email = "msdbgx@gmail.com"
 
 [posts]
-    other = "Posts"
+other = "Posts"
 
 [Author]
-    name = "Medo beayou"
+name = "Medo beayou"
 
 [about]
-    other = "About"
+other = "About"
 
 [writtenBy]
-    other = "Written by"
+other = "Written by"
 
 [on]
-    other = "on"
+other = "on"
 
 [generator]
-    other = "Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme."
+other = "Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme."
 
 [publishdate]
-    other = "{{ .PublishDate.Format \"January 2, 2018\" }}"
+other = "{{ .PublishDate.Format \"January 2, 2018\" }}"
 
 
