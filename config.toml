@@ -1,5 +1,8 @@
 # Site settings
-baseurl = "https://m-beayou.netlify.com/"
+baseurl = "/"
+
+GoogleAnalytics = "UA-132744098-1"
+
 RelativeURLs=true
 CanonifyURLs=true
 
