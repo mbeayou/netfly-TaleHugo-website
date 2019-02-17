@@ -35,14 +35,15 @@
 		{{ end }}
 
 		<!--{{ template "_internal/google_analytics_async.html" . }}-->
-		{{ partial "google/analytics.html" . }}
+		<!--{{ partial "google/analytics.html" . }}-->
+		{{ template "_internal/google_analytics_async.html" . }}
 
-		<!--Google Analytics-->
+		<!--Google Analytics
 		{{ if .Params.ga.async }}
 			{{ template "_internal/google_analytics_async.html" . }}
 	    {{ else }}
 			{{ template "_internal/google_analytics.html" . }}
-	    {{ end }}
+	    {{ end }}-->
 
 
 
