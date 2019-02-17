@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cairo|Source+Code+Pro|Tajawal&subset=arabic");	
+@import url("https://fonts.googleapis.com/css?family=Cairo|Source+Code+Pro|Tajawal&subset=arabic");
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -131,7 +131,7 @@ center {
       .post p,
       .post ul,
       .post li {
-        font-size: 18px; } }
+        font-size: 17px; } }
     @media (min-width: 720px) {
       .post p,
       .post ul,
