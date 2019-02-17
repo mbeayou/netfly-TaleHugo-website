@@ -34,7 +34,13 @@
   		<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 		{{ end }}
 
-		{{ partials "google/analytics" . }}
+
+		<!--Google Analytics-->
+		{{ if .Params.ga.async }}
+			{{ template "_internal/google_analytics_async.html" . }}
+	    {{ else }}
+			{{ template "_internal/google_analytics.html" . }}
+	    {{ end }}
 
 
 
