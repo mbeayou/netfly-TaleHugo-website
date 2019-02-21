@@ -3,6 +3,8 @@ baseurl = "/"
 
 GoogleAnalytics = "UA-132744098-1"
 
+disqusShortname = "mbeayou"
+
 RelativeURLs=true
 CanonifyURLs=true
 
