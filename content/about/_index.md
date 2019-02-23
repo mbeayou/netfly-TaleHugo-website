@@ -24,7 +24,6 @@ msdbgx@gmail.com
 
 او مراسلتي  على 
 
-[الفيسبوك](https://www.facebook.com/medo.bayou)
 
 [التويتر](https://twitter.com/medobaayou)
 
